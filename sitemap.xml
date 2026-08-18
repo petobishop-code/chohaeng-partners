@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://chohaeng-partners.vercel.app/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/inquiry.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/company.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/service.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/investment.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/education.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/faq.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/privacy.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/stock-free-lecture.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/stock-beginner.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/stock-investment-guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/us-stock-guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://chohaeng-partners.vercel.app/korean-stock-guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
