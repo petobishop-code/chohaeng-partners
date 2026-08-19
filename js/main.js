@@ -5,6 +5,29 @@ document.addEventListener('DOMContentLoaded', () => {
     toggle.addEventListener('click', () => mobileMenu.classList.toggle('open'));
   }
 
+
+
+  // 사이트 전체 상담 버튼 문구 통일
+  const consultationLabels = [
+    '상담 신청', '상담신청', '상담 신청하기',
+    '상담문의', '상담 문의', '상담문의하기',
+    '지금 상담문의하기', '지금 상담문의', '상담 문의하기'
+  ];
+
+  document.querySelectorAll('a[href*="inquiry"], button[type="submit"]').forEach((el) => {
+    const current = (el.textContent || '').replace(/\s+/g, ' ').trim();
+    const isInquiryLink = el.tagName === 'A' && (el.getAttribute('href') || '').includes('inquiry');
+    const isInquirySubmit = el.tagName === 'BUTTON' && el.closest('#inquiryForm');
+
+    if (
+      isInquirySubmit ||
+      (isInquiryLink && consultationLabels.some(label => current.includes(label)))
+    ) {
+      el.textContent = '무료상담신청';
+      el.setAttribute('aria-label', '무료상담신청');
+    }
+  });
+
   const form = document.querySelector('#inquiryForm');
   if (!form) return;
 
@@ -59,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
       status.style.color = '#b42318';
     } finally {
       submitButton.disabled = false;
-      submitButton.textContent = '상담 신청하기';
+      submitButton.textContent = '무료상담신청';
     }
   });
 });
