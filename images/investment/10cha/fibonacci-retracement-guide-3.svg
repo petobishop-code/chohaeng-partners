@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620">
+    <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#071629"/><stop offset="1" stop-color="#153958"/></linearGradient></defs>
+    <rect width="1200" height="620" fill="url(#g)"/>
+    <g opacity=".18" stroke="#88a6c5"><line x1="80" y1="50" x2="80" y2="570"/><line x1="180" y1="50" x2="180" y2="570"/><line x1="280" y1="50" x2="280" y2="570"/><line x1="380" y1="50" x2="380" y2="570"/><line x1="480" y1="50" x2="480" y2="570"/><line x1="580" y1="50" x2="580" y2="570"/><line x1="680" y1="50" x2="680" y2="570"/><line x1="780" y1="50" x2="780" y2="570"/><line x1="880" y1="50" x2="880" y2="570"/><line x1="980" y1="50" x2="980" y2="570"/><line x1="1080" y1="50" x2="1080" y2="570"/><line x1="1180" y1="50" x2="1180" y2="570"/><line x1="60" y1="80" x2="1140" y2="80"/><line x1="60" y1="170" x2="1140" y2="170"/><line x1="60" y1="260" x2="1140" y2="260"/><line x1="60" y1="350" x2="1140" y2="350"/><line x1="60" y1="440" x2="1140" y2="440"/><line x1="60" y1="530" x2="1140" y2="530"/></g>
+    <path d="M80 400 C250 180, 370 500, 560 260 S900 150,1120 260" fill="none" stroke="#d6b56a" stroke-width="10"/><path d="M80 330 C260 240,430 360,600 245 S940 210,1120 300" fill="none" stroke="#88a6c5" stroke-width="7" opacity=".8"/>
+    <text x="70" y="90" fill="#f6f1e6" font-family="Arial,sans-serif" font-size="30" font-weight="700">CHOHAENG PARTNERS · 피보나치 되돌림</text>
+    <text x="70" y="555" fill="#b9c8d7" font-family="Arial,sans-serif" font-size="22">기준과 구조를 먼저 보는 투자 공부</text>
+    </svg>
